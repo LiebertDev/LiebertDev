@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" role="img" aria-label="Liebert - reverse engineering, tooling, measured, not guessed">
+  <rect width="1280" height="140" fill="#060708"/>
+  <rect x="0" y="0" width="1280" height="2" fill="#9cc9e8"/>
+  <rect x="0" y="138" width="1280" height="2" fill="#9cc9e8" opacity="0.35"/>
+  <rect x="0" y="0" width="3" height="140" fill="#9cc9e8"/>
+  <text x="640" y="72" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="52" font-weight="700" fill="#c3dff2">Liebert</text>
+  <text x="640" y="108" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="17" fill="#d5dbe2" opacity="0.8">reverse engineering · tooling · measured, not guessed</text>
+</svg>
