@@ -1,44 +1,56 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="LiebertDev: evidence-bound reverse engineering for AI agents" src="assets/banner-light.svg" width="100%">
+</picture>
 
-<img src="assets/banner.webp" alt="" width="100%">
-<img src="assets/header.svg" alt="Liebert - reverse engineering, tooling, measured, not guessed" width="100%">
+I build reverse-engineering tools that AI agents can drive without making things up.
+The rule is simple: a finding is backed by quoted evidence, or it is not a finding.
+Anything that was not examined is reported as not examined, never as "clean".
 
-</div>
+## Featured: Red Harness
 
-Liebert builds Windows-first reverse-engineering tooling and small Windows utilities. The guiding principle is **unknown stays unknown**: a result is either measured or it is marked as such, never guessed.
+**[LiebertDev/red-harness](https://github.com/LiebertDev/red-harness)** is an evidence-bound reverse-engineering harness,
+exposed as an MCP server for Claude Code, Codex and other MCP clients.
+It is meant for binaries you own or are authorized to test.
 
-## Projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/red-harness-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/red-harness-flow-light.svg">
+  <img alt="How Red Harness works: target, static evidence, controlled run, claim, verifier, report" src="assets/red-harness-flow-light.svg" width="100%">
+</picture>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/LiebertDev/liebert-reverse-engineering"><img src="assets/re-card.webp" alt="liebert-reverse-engineering" width="100%"></a>
-      <h3><a href="https://github.com/LiebertDev/liebert-reverse-engineering">liebert-reverse-engineering</a></h3>
-      <p>Static reverse-engineering CLI built to be driven by an AI model; every result is measured or marked UNKNOWN.</p>
-      <img src="https://img.shields.io/badge/status-alpha-d23a4c?style=flat-square&labelColor=0d1013" alt="status: alpha">
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/LiebertDev/LiDPI"><img src="assets/lidpi-card.webp" alt="LiDPI" width="100%"></a>
-      <h3><a href="https://github.com/LiebertDev/LiDPI">LiDPI</a></h3>
-      <p>One-click Windows DPI tool for reaching Discord and blocked sites.</p>
-      <img src="https://img.shields.io/badge/status-available-2ee6a6?style=flat-square&labelColor=0d1013" alt="status: available">
-    </td>
-  </tr>
-</table>
+- **Static analysis** through Ghidra or IDA: functions, strings, cross-references, decompilation, disassembly, raw bytes.
+- **Claim verifier:** every claim must cite evidence; a claim that is not backed by quoted evidence is rejected.
+- **Behaviour is proven by running it:** a behaviour claim needs a controlled run in Windows Sandbox. A value seen in code is not proof.
+- **Honest reports:** the report lists what was *not* examined, so a gap stays a gap.
+
+| Edition | License | Status |
+|---|---|---|
+| **Core** | Apache-2.0 | public release in preparation at [LiebertDev/red-harness](https://github.com/LiebertDev/red-harness) |
+| **Pro** | commercial | available; ask through an issue in the Core repository |
+
+## Other projects
+
+- **[liebert-reverse-engineering](https://github.com/LiebertDev/liebert-reverse-engineering)**:
+  a static reverse-engineering CLI with JSON output, built to be driven by an AI agent.
+  It wraps Detect It Easy, rizin, YARA-X, IDA, Ghidra and Unicorn; a value it cannot determine stays `UNKNOWN`.
+  <sub>Python · Apache-2.0 · alpha</sub>
+- **[LiDPI](https://github.com/LiebertDev/LiDPI)**:
+  a one-click DPI circumvention tool for Windows, for Discord and blocked sites.
+  System-wide mode through WinDivert or a driver-free browser-only proxy, with DNS over HTTPS.
+  <sub>C# · WPF · MIT · v1.1.2</sub>
 
 ## Toolbox
 
-![Python](https://img.shields.io/badge/Python-0d1013?style=flat-square&logo=python&logoColor=9cc9e8)
-![Windows](https://img.shields.io/badge/Windows-0d1013?style=flat-square&logo=windows&logoColor=9cc9e8)
-![IDA Pro](https://img.shields.io/badge/IDA_Pro-0d1013?style=flat-square&logoColor=d23a4c&labelColor=0d1013&color=d23a4c)
-![Ghidra](https://img.shields.io/badge/Ghidra-0d1013?style=flat-square&color=d23a4c)
-![rizin](https://img.shields.io/badge/rizin-0d1013?style=flat-square&color=9cc9e8)
-![YARA](https://img.shields.io/badge/YARA-0d1013?style=flat-square&color=9cc9e8)
+| Area | Tools |
+|---|---|
+| Reverse engineering | Ghidra, IDA Pro, rizin, YARA-X, Detect It Easy, Unicorn, Capstone |
+| Windows | PE format, kernel-driver triage, Windows Sandbox, WinDivert |
+| Agents | Model Context Protocol (MCP) servers, Claude Code, Codex |
+| Languages | Python, C# / .NET (WPF) |
 
-## Lab journal
+## Contact
 
-Notes and write-ups: **[liebertdev.github.io/liebert-lab](https://liebertdev.github.io/liebert-lab/)**
-
----
-
-**TR:** Liebert, Windows odaklı tersine mühendislik araçları ve küçük Windows yardımcı programları geliştirir. İlke şudur: bilinmeyen bilinmeyen kalır; her sonuç ya ölçülmüştür ya da öyle işaretlenir. Projeler ve günlük yukarıdaki bağlantılardadır.
+Questions, bug reports and Pro inquiries: open an issue in the relevant repository.
+For security reports, follow the repository's `SECURITY.md` where one exists.

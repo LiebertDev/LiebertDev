@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">LiebertDev</title>
+  <desc id="d">Evidence-bound reverse engineering for AI agents. Measured, not guessed. Unknown stays unknown. What was not examined is listed.</desc>
+  <rect x="1" y="1" width="1198" height="298" rx="16" fill="#0b0f14" stroke="#30363d" stroke-width="2"/>
+  <rect x="48" y="96" width="6" height="134" rx="3" fill="#f0555f"/>
+  <text x="76" y="88" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="2" fill="#9cc9e8">REVERSE ENGINEERING · TOOLING</text>
+  <text x="74" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-1" fill="#e6edf3">LiebertDev</text>
+  <text x="76" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="28" fill="#9da7b3">Evidence-bound reverse engineering for AI agents</text>
+  <text x="76" y="250" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#6e7681" xml:space="preserve">measured, not guessed  ·  unknown stays unknown</text>
+  <text x="880" y="74" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.62" xml:space="preserve"><tspan fill="#6e7681">00000000</tspan>  <tspan fill="#f0555f" fill-opacity="1">4D 5A</tspan> 90 00 03 00 00 00</text>
+  <text x="880" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.56" xml:space="preserve"><tspan fill="#6e7681">00000008</tspan>  04 00 00 00 FF FF 00 00</text>
+  <text x="880" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.50" xml:space="preserve"><tspan fill="#6e7681">00000010</tspan>  B8 00 00 00 00 00 00 00</text>
+  <text x="880" y="146" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.44" xml:space="preserve"><tspan fill="#6e7681">00000018</tspan>  40 00 00 00 00 00 00 00</text>
+  <text x="880" y="170" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.38" xml:space="preserve"><tspan fill="#6e7681">00000020</tspan>  00 00 00 00 00 00 00 00</text>
+  <text x="880" y="194" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.32" xml:space="preserve"><tspan fill="#6e7681">00000028</tspan>  00 00 00 00 00 00 00 00</text>
+  <text x="880" y="218" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.26" xml:space="preserve"><tspan fill="#6e7681">00000030</tspan>  00 00 00 00 00 00 00 00</text>
+  <text x="880" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#9da7b3" fill-opacity="0.20" xml:space="preserve"><tspan fill="#6e7681">00000038</tspan>  00 00 00 00 F8 00 00 00</text>
+</svg>
