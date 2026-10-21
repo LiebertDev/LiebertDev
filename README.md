@@ -27,15 +27,11 @@ It is meant for binaries you own or are authorized to test.
 
 | Edition | License | Status |
 |---|---|---|
-| **Core** | Apache-2.0 | public release in preparation at [LiebertDev/red-harness](https://github.com/LiebertDev/red-harness) |
+| **Core** | Apache-2.0 | public at [LiebertDev/red-harness](https://github.com/LiebertDev/red-harness) |
 | **Pro** | commercial | available; ask through an issue in the Core repository |
 
 ## Other projects
 
-- **[liebert-reverse-engineering](https://github.com/LiebertDev/liebert-reverse-engineering)**:
-  a static reverse-engineering CLI with JSON output, built to be driven by an AI agent.
-  It wraps Detect It Easy, rizin, YARA-X, IDA, Ghidra and Unicorn; a value it cannot determine stays `UNKNOWN`.
-  <sub>Python · Apache-2.0 · alpha</sub>
 - **[LiDPI](https://github.com/LiebertDev/LiDPI)**:
   a one-click DPI circumvention tool for Windows, for Discord and blocked sites.
   System-wide mode through WinDivert or a driver-free browser-only proxy, with DNS over HTTPS.
